@@ -1,4 +1,5 @@
-$('.masthead').mouseenter(function(){
+/* toggle menu in home and tag template */
+$('.home-template .masthead, .tag-template .masthead').mouseenter(function(){
 	$('.nav').slideToggle(200);
 }).mouseleave(function(){
 	$('.nav').slideToggle(200);

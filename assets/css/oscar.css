@@ -105,35 +105,16 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1rem;
 }
 
-@keyframes mastheadShrink{
-    from    {  font-size: 150%;
-               padding-top:    1rem;
-               padding-bottom: 1rem;
-            }
-    to      {  font-size: 100%;
-               padding-top:    0.5rem;
-               padding-bottom: 0.5rem;
-            }
-}
-
 .tag-template .masthead-title {
     font-size: 150%;
     padding-top:    1rem;
     padding-bottom: 1rem;
 }
 
-.post-template .masthead-title a{
-    color: #c0c0c0;
-}
 
 .post-template .masthead-title small{
     color: #E7E7E7;
 }
-
-.post-template .masthead{
-    animation: mastheadShrink 0.5s linear;
-}
-
 
 @media (max-width: 48em) {
     .masthead-title {
@@ -148,38 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav{
     display: none;
+	text-align: right;
 }
-// .masthead:hover{
-//     display: inherit;
-//     padding-bottom: 1rem;
-//     animation: masterheadGrow .5s;
-// }
-
-// .masthead:hover .nav{
-//     animation: showNav .5s;
-// }
-// @keyframes showNav{
-//     0%{
-//         background: red;
-//         display: none;
-//     }
-//     90%{
-//         background: blue;
-//         display: inherit;
-//     }
-//     100%{
-//         background: blue;
-//         display: inherit;
-//     }
-// }
-// @keyframes masterheadGrow{
-//     0%{
-//         padding-bottom: 1rem;
-//     }
-//     100%{
-//         padding-bottom: 3rem;
-//     }
-// }
 
 /*******Navigation*********/
 
