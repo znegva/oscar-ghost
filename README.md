@@ -28,9 +28,10 @@ the original theme from Oscar Morrison was modified to suffice some of my needs
  * changed the date-format to DD.MM.YYYY , so the theme can be used/viewed by non-US and non-english persons without having to be annoyed
  * the arrows of between-articles-navigation now uses the same arrows as the between-pages-of-articles-navigation
  * changed the color of external links to my prefered green :)
- * changed the menu/navigation from icons to right aligned text
- * changed the behaviour of the navigation, it now shows only on overview-pages (startpage and tags-page) but not on article pages
+ * changed the menu/navigation from icons to right aligned, always visible, text
  * images dont have round corners anymore
+ * tags dont have round borders, but hashtags now
+ * headings of post are now right aligned, not centered (like in the index)
 
 ## Initial Author
 
