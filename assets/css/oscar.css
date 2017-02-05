@@ -215,23 +215,28 @@ i.header-icon {
 }
 
 .tags a{
-  color: #B3B3B3;
+/*  color: #B3B3B3;*/
   font-size: 14px;
   font-weight: 200;
-  font-style: italic;
+/*  font-style: italic;*/
   padding: 0px 4px;
 }
 
+.tags a::before{
+	content: "#";
+}
+
 .tags a:hover{
-    border: 1px solid;
+/*    border: 1px solid;
     border-color: #B3B3B3;
     border-radius: 5px;
     text-decoration: none;
     padding: 0px 3px;
+*/
 }
 
 .tag-title{
-    display: inline-block;
+ /*   display: inline-block;
     text-align: center;
     font-size: 100%;
     padding: 5px 8px;
@@ -239,6 +244,7 @@ i.header-icon {
     border-color: #707070;
     border-radius: 5px;
     margin-bottom: 1rem;
+*/
 }
 
 .tag-description{
@@ -396,9 +402,9 @@ a.pagination-item:hover {
 }
 
 .tag-template .tag-header{
-  border-bottom: #EBF2F6 1px solid;
+  /*border-bottom: #EBF2F6 1px solid;*/
   margin-bottom: 2em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .post-image{
