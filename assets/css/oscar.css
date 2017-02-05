@@ -87,6 +87,9 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+
+  display: inline;
+  float:left;
 }
 .masthead-title a {
   color: #505050;
@@ -100,20 +103,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-template .masthead-title {
-    font-size: 150%;
-    padding-top:    1rem;
-    padding-bottom: 1rem;
 }
 
 .tag-template .masthead-title {
-    font-size: 150%;
-    padding-top:    1rem;
-    padding-bottom: 1rem;
 }
 
 
 .post-template .masthead-title small{
-    color: #E7E7E7;
 }
 
 @media (max-width: 48em) {
@@ -128,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 .nav{
-    display: none;
 	text-align: right;
 }
 
@@ -136,6 +131,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav.container{
     padding-top: 10px;
+	font-size: 70%;
+
+	display:inline;
+	float:right;
 }
 
 .nav.hidden{
@@ -391,9 +390,9 @@ a.pagination-item:hover {
 }
 
 .post-template .post-header{
-  border-bottom: #EBF2F6 1px solid;
+  /*border-bottom: #EBF2F6 1px solid;*/
   margin-bottom: 2em;
-  text-align: center;
+  /*text-align: center; */
 }
 
 .tag-template .tag-header{
