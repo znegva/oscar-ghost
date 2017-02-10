@@ -56,16 +56,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-    max-width: 28rem;
+    max-width: 30rem;
 }
 @media (min-width: 38em) {
   .container {
-    max-width: 32rem;
+    max-width: 36rem;
 }
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 38rem;
+    max-width: 48rem;
 }
 }
 
@@ -148,7 +148,7 @@ a.nav-item{
 .nav-item{
   text-decoration: none;
   color: #A6A6A6;
-  margin-right: 1em;
+  margin-left: 1em;
 }
 
 .nav-item:hover{
